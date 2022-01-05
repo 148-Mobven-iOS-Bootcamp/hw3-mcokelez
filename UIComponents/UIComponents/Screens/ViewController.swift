@@ -60,9 +60,10 @@ class ViewController: UIViewController {
 
     @objc func imageDoubleTapped(_ sender: UITapGestureRecognizer) {
         let zoomScale = scrollView.zoomScale >= 3.0 ? 1.0 : 3.0
-        scrollView.setZoomScale(zoomScale, animated: true)
+        scrollView.setZoomScale(CGFloat(zoomScale), animated: true)
     }
 
+    @available(iOS 14.0, *)
     func createPhoneTextFieldKeyboardToolbar() -> UIToolbar {
         let flexibleSpace = UIBarButtonItem.flexibleSpace()
 
@@ -78,6 +79,9 @@ class ViewController: UIViewController {
         return toolbar
     }
 
+    @available(iOS 14.0, *)
+    @available(iOS 14.0, *)
+    @available(iOS 14.0, *)
     func configurePhoneTextField() {
         let toolbar = createPhoneTextFieldKeyboardToolbar()
         textField.inputAccessoryView = toolbar

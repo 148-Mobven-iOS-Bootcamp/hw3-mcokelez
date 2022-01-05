@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		2391F724277732FC00269D7F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391F723277732FC00269D7F /* SecondViewController.swift */; };
 		2391F74C27788A4500269D7F /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391F74B27788A4400269D7F /* MainTableViewController.swift */; };
 		2391F75127788C8300269D7F /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2391F75027788C8300269D7F /* UIColorExtensions.swift */; };
+		5C60833927861FE3007368DE /* UIComponents.app in Resources */ = {isa = PBXBuildFile; fileRef = 23097EC3276F330D00AC8761 /* UIComponents.app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -136,7 +137,7 @@
 				};
 			};
 			buildConfigurationList = 23097EBE276F330D00AC8761 /* Build configuration list for PBXProject "UIComponents" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -161,6 +162,7 @@
 				23097ED3276F330F00AC8761 /* LaunchScreen.storyboard in Resources */,
 				23097ED0276F330F00AC8761 /* Assets.xcassets in Resources */,
 				23097ECE276F330D00AC8761 /* Main.storyboard in Resources */,
+				5C60833927861FE3007368DE /* UIComponents.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,12 +335,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.semihemreunlu.UIComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavi.UIComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -361,12 +364,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.semihemreunlu.UIComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mavi.UIComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
