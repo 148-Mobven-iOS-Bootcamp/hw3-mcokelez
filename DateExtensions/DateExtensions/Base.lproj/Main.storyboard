@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date Picker View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DatePickerViewController" customModule="DateExtensions" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pyg-58-qyl">
+                                <rect key="frame" x="49" y="480" width="304" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="PWR-Hq-FS0"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Day">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Copperplate"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3O-nm-dx8">
+                                <rect key="frame" x="49" y="532" width="304" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6tb-fn-oQ8"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Month">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Copperplate"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RjH-Tr-cvU">
+                                <rect key="frame" x="49" y="584" width="304" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="y8s-e4-jxU"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Year">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Copperplate"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S3s-Ou-swc">
+                                <rect key="frame" x="49" y="636" width="304" height="24.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="QCh-Fq-G0g"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="New Format">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="Copperplate"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="3Rn-LJ-ZD4">
+                                <rect key="frame" x="49" y="153" width="316" height="280"/>
+                                <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="dtZ-Oy-GZd"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeDatePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="fyM-h6-TvZ"/>
+                                </connections>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RjH-Tr-cvU" firstAttribute="leading" secondItem="S3s-Ou-swc" secondAttribute="leading" id="2IN-Gz-Br3"/>
+                            <constraint firstItem="RjH-Tr-cvU" firstAttribute="trailing" secondItem="S3s-Ou-swc" secondAttribute="trailing" id="5Hq-rt-viR"/>
+                            <constraint firstItem="3Rn-LJ-ZD4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="109" id="5rq-Kt-sOy"/>
+                            <constraint firstItem="Pyg-58-qyl" firstAttribute="trailing" secondItem="F3O-nm-dx8" secondAttribute="trailing" id="9Q8-pd-Cyv"/>
+                            <constraint firstItem="F3O-nm-dx8" firstAttribute="trailing" secondItem="RjH-Tr-cvU" secondAttribute="trailing" id="BoU-0z-hM4"/>
+                            <constraint firstItem="F3O-nm-dx8" firstAttribute="top" secondItem="Pyg-58-qyl" secondAttribute="bottom" constant="8" id="EpF-ZD-uaF"/>
+                            <constraint firstItem="F3O-nm-dx8" firstAttribute="leading" secondItem="RjH-Tr-cvU" secondAttribute="leading" id="M2V-dk-rrv"/>
+                            <constraint firstItem="S3s-Ou-swc" firstAttribute="top" secondItem="RjH-Tr-cvU" secondAttribute="bottom" constant="8" id="M5m-Qr-iTa"/>
+                            <constraint firstItem="Pyg-58-qyl" firstAttribute="top" secondItem="3Rn-LJ-ZD4" secondAttribute="bottom" constant="47" id="OEW-ve-eE5"/>
+                            <constraint firstItem="Pyg-58-qyl" firstAttribute="leading" secondItem="F3O-nm-dx8" secondAttribute="leading" id="hZ7-mN-b1j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="S3s-Ou-swc" secondAttribute="bottom" constant="321" id="jj1-PT-79f"/>
+                            <constraint firstItem="3Rn-LJ-ZD4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mWw-Rd-7yU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pyg-58-qyl" secondAttribute="trailing" constant="61" id="nLf-wf-yu4"/>
+                            <constraint firstItem="3Rn-LJ-ZD4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="pb8-gu-NAS"/>
+                            <constraint firstItem="3Rn-LJ-ZD4" firstAttribute="leading" secondItem="Pyg-58-qyl" secondAttribute="leading" id="ubU-92-wQx"/>
+                            <constraint firstItem="RjH-Tr-cvU" firstAttribute="top" secondItem="F3O-nm-dx8" secondAttribute="bottom" constant="8" id="uel-oW-RoV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="3Rn-LJ-ZD4" id="UWR-Ya-rfI"/>
+                        <outlet property="dayLabel" destination="Pyg-58-qyl" id="0lU-43-eJE"/>
+                        <outlet property="monthLabel" destination="F3O-nm-dx8" id="5qq-iQ-qEw"/>
+                        <outlet property="newFormatLabel" destination="S3s-Ou-swc" id="ah7-2Z-VMj"/>
+                        <outlet property="yearLabel" destination="RjH-Tr-cvU" id="O6c-hF-Du3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="63.616071428571423"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
